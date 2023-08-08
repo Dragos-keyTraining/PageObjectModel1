@@ -13,7 +13,7 @@ public class BaseTest {
 	
 	@BeforeClass
 	public void setup() {
-		
+		//System.setProperty("webdriver.chrome.driver", "path catre/chromedriver.exe")
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();//maximizeaza fereastra browserului
