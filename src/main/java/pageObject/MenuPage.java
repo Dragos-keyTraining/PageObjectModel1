@@ -27,7 +27,7 @@ public class MenuPage {
 	
 	public By blogSubMenuMasonry = By.xpath("//a[contains(text(), 'Masonry')]");
 	public By blogSubMenuMasonrysubMenu = By.xpath("//a[contains(text(), 'Masonry 2')]");
-	public By iconSearch = By.cssSelector("button[title='Open search']");
+	public By iconSearch = By.cssSelector("button[class*='search_submit']");
 	public By searchField = By.cssSelector("input[class='search_field']");
 
 	
